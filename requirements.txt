@@ -8,4 +8,4 @@ pymongo
 certifi
 pymongo[srv]==3.11
 dotenv
--e ./
+# -e ./
