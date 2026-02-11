@@ -12,7 +12,7 @@ def get_requirements(file_path)->List[str]:
             lines=file.readlines()
             for line in lines:
                 requirements=line.strip()
-                if requirements and requirements!='-e .':
+                if line and not line.startswith("-e"):
                     req_list.append(requirements)
     except FileNotFoundError:
         print("requirements.txt file not found")
