@@ -1,7 +1,7 @@
 import os
 import sys
 import json
-MONGO_DB_URL = "mongodb+srv://scrapemail1285_db_user:Aparna1285@cluster0.uitd7yc.mongodb.net/?appName=Cluster0"
+MONGO_DB_URL = "mongodb+srv://5447326ramcharan_db_user:Aparna1285@cluster00.mqgnjcv.mongodb.net/?appName=Cluster00"
 
 from dotenv import load_dotenv
 load_dotenv()
